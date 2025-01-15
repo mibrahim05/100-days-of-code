@@ -9,8 +9,8 @@ import random
 
 
 
-my_email = "testing.tes0011@gmail.com"
-password = "ggie dnsc pjqt cxsq"
+my_email = ""
+password = ""
 
 today = dt.datetime.now()
 today_tuple = (today.month,today.day)
