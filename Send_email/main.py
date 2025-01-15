@@ -1,13 +1,13 @@
 # import smtplib
 #
-# my_email = "testing.tes0011@gmail.com"
-# password = "ggie dnsc pjqt cxsq"
+# my_email = ""
+# password = ""
 #
 #
 # with smtplib.SMTP("smtp.gmail.com") as connection:
 #     connection.starttls()
 #     connection.login(user=my_email,password=password)
-#     connection.sendmail(from_addr=my_email,to_addrs="plantree19@gmail.com",msg="Subject:Hello\n\n This is the body of the email")
+#     connection.sendmail(from_addr=my_email,to_addrs="",msg="Subject:Hello\n\n This is the body of the email")
 
 
 # import datetime as dt
@@ -28,8 +28,8 @@ import datetime as dt
 import random
 
 
-my_email = "testing.tes0011@gmail.com"
-password = "ggie dnsc pjqt cxsq"
+my_email = ""
+password = ""
 
 
 now = dt.datetime.now()
@@ -47,7 +47,7 @@ if weekday == 1:
             connection.starttls()
             connection.login(my_email,password)
             connection.sendmail(from_addr=my_email,
-                                to_addrs="plantree19@gmail.com",
+                                to_addrs="",
                                 msg=f"Subject:Monday Motivation \n\n{quote}"
                                 )
 
