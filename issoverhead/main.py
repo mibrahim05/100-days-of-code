@@ -5,8 +5,8 @@ import smtplib
 import time
 
 
-my_email = "testing.tes0011@gmail.com"
-password = "ggie dnsc pjqt cxsq"
+my_email = ""
+password = ""
 
 MY_LAT = 51.507351 # Your latitude
 MY_LONG = -0.127758 # Your longitude
